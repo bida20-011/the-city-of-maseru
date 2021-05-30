@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<title>City Of Maseru</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img alt="logo" src="images/logo.png" style="width:45%;" class="w3-round"><br><br>
+            <h4><b>City Of Maseru</b></h4>
+            <p class="w3-text-grey">Muso haona chelete.</p>
+        </div>
+        <div class="w3-bar-block">
+            <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal">HOME</a>
+            <a href="pages/lifestyle.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">LIFESTYLE</a>
+            <a href="pages/about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">ABOUT</a>
+            <a href="pages/connect.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">CONNECT</a>
+            <a href="pages/events.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">EVENTS</a>
+        </div>
+        <div class="w3-panel w3-large">
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header id="portfolio">
+            <a href="#"><img src="images/logo.png" alt="logo" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <br/>
+            <div class="w3-container">
+                <h3><b>Welcome to City of Maseru's official website</b></h3>
+            </div>
+        </header>
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="images/Citylife.png" alt="buildings" style="width:100%;height: 400px;" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>The Buildings</b></p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="images/avanihotel.jpg" alt="hotels" style="width:100%;height: 400px;" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Hotels</b></p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="images/Our Lady of Victory Cathedral, Maseru.jpg" alt="churches" style="width:100%;height: 400px;" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>churches</b></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <h4><b>What City of Maseru is all about.</b></h4>
+            <p>Maseru was founded by the British as a small police camp in 1869, following the conclusion of the Free State–Basotho Wars when Basutoland became a British protectorate.[3][4][5] Maseru is located at the edge of the "conquered territories"
+                relinquished to the Orange Free State (now the Free State province of South Africa) as part of the peace terms. It was located 24 kilometres (15 mi) west of Basotho King Moshoeshoe I's stronghold of Thaba Bosiu, the previous de facto capital.
+                A bustling market town soon grew around the area.[6] Maseru initially functioned as the state's administrative capital between 1869 and 1871, before administration of Basutoland was transferred to the Cape Colony. During their rule between
+                1871 and 1884, Basutoland was treated similarly to territories that had been forcefully annexed, much to the chagrin of the Basotho.[7] This led to the Gun War in 1881 and the burning of many buildings in Maseru.[1] In 1884, Basutoland
+                was restored to its status as a Crown colony, and Maseru was again made capital. When Basutoland gained its independence and became the Kingdom of Lesotho in 1966, Maseru remained the country's capital.[5] Prior to Lesotho's independence,
+                Maseru had remained relatively small; it was contained within well-defined colonial boundaries and had little room for growth, while the British had little interest in developing the city. After 1966 Maseru experienced rapid expansion:
+                its area increased around sevenfold, from around 20 square kilometres (7.7 sq mi) to the current area of 138 square kilometres (53 sq mi), due to incorporation of nearby peri-urban villages to the city proper.[1][5] The annual population
+                growth rates remained around 7% for several decades, before tapering off to around 3.5% between 1986 and 1996.[5] After the 1998 parliamentary elections in Lesotho led to suspicions of vote fraud and a military intervention by South Africa,
+                much of the city was damaged by riots and pillaging.[8] The cost of repairing the damage done to the city was estimated at around two billion rand (US$350 million),[9] and until almost 2008, the effects of the riots could still be seen
+                within the city.</p>
+            <hr>
+            <!-- Footer -->
+            <footer class="w3-container w3-padding-32 w3-dark-grey">
+                <div class="w3-row-padding">
+                    <div class="w3-third">
+                        <h3>Know more</h3>
+                        <p>In 2014, the City changed its slogan from “The city that works for you” to “Making Progress Possible. Together”. It was a clever shift in responsibility, an “ask not what your country can do for you” moment.</p>
+                    </div>
+
+
+
+                </div>
+            </footer>
+            <!-- End page content -->
+        </div>
+
+        <script src="js/main.js">
+            // Script to open and close sidebar
+        </script>
+
+</body>
+
+</html>
